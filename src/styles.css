@@ -1,0 +1,85 @@
+.fitness-banner {
+  position: relative;
+  height: 400px;
+  background-image: url("images/fitness-1.jpg");
+  background-size: cover;
+  background-position: center;
+  animation: slideBanner 12s infinite;
+  opacity: 0.5;
+}
+
+.fitness-banner-2 {
+  background-image: url("images/fitness-2.jpg");
+}
+
+.fitness-banner-3 {
+  background-image: url("images/fitness-3.jpg");
+}
+
+.fitness-banner-4 {
+  background-image: url("images/fitness-4.jpg");
+}
+
+@keyframes slideBanner {
+  0% {
+    background-image: url("images/fitness-1.jpg");
+  }
+  25% {
+    background-image: url("images/fitness-2.jpg");
+  }
+  50% {
+    background-image: url("images/fitness-3.jpg");
+  }
+  75% {
+    background-image: url("images/fitness-4.jpg");
+  }
+  100% {
+    background-image: url("images/fitness-1.jpg");
+  }
+}
+
+.nutrition-banner {
+  position: relative;
+  height: 400px;
+  background-image: url("images/nutrition-1.jpg");
+  background-size: cover;
+  background-position: center;
+  animation: slideNutritionBanner 12s infinite;
+  opacity: 0.5;
+}
+
+.nutrition-banner-2 {
+  background-image: url("images/nutrition-2.jpg");
+}
+
+.nutrition-banner-3 {
+  background-image: url("images/nutrition-3.jpg");
+}
+
+.nutrition-banner-4 {
+  background-image: url("images/nutrition-4.jpg");
+}
+
+@keyframes slideNutritionBanner {
+  0% {
+    background-image: url("images/nutrition-1.jpg");
+  }
+  25% {
+    background-image: url("images/nutrition-2.jpg");
+  }
+  50% {
+    background-image: url("images/nutrition-3.jpg");
+  }
+  75% {
+    background-image: url("images/nutrition-4.jpg");
+  }
+  100% {
+    background-image: url("images/nutrition-1.jpg");
+  }
+}
+
+.chart-container {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+}
