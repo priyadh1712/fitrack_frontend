@@ -33,11 +33,11 @@ const LogIn = () => {
 
       if (response.ok) {
         const { token, userId } = data;
-        localStorage.setItem("token", token);
+        localStorage.setItem("authToken", token);
         localStorage.setItem("userId", userId);
         setIsAuthenticated(true); 
         navigate("/");
-      } else {
+    }  else {
         throw new Error(data.message || "Failed to login.");
       }
     } catch (err) {
