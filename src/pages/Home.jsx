@@ -64,14 +64,6 @@ const Home = () => {
           <p className="text-lg mb-8">
             Join thousands of others and start tracking your fitness today!
           </p>
-          {!isLoggedIn && (
-            <a
-              href="/signup"
-              className="bg-white text-green-500 font-bold py-3 px-6 rounded-full shadow-lg hover:bg-gray-100 hover:shadow-xl transition duration-300"
-            >
-              Get Started
-            </a>
-          )}
         </section>
       </main>
       <Footer />
